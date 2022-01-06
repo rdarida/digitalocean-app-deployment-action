@@ -26,7 +26,8 @@
   },
   "scripts": {
     "prepare": "is-ci || husky install",
-    "format": "prettier --write \"./**/*.(ts|tsx|js|jsx|html|json|yml)\""
+    "format": "prettier --write \"./**/*.(ts|tsx|js|jsx|html|json|yml)\"",
+    "release": "standard-version"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.0.1",
