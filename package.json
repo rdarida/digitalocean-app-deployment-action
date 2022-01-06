@@ -1,0 +1,28 @@
+{
+  "name": "digitalocean-app-deployment-action",
+  "version": "0.0.0",
+  "description": "GitHub Action for Creating an App Deployment via DigitalOcean API",
+  "license": "MIT",
+  "author": "Róbert Darida",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdarida/digitalocean-app-deployment-action.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rdarida/digitalocean-app-deployment-action/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "prepare": "is-ci || husky install",
+    "format": "prettier --write \"./**/*.(ts|tsx|js|jsx|html|json|yml)\""
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.0.1",
+    "@commitlint/config-conventional": "^16.0.0",
+    "husky": "^7.0.4",
+    "is-ci": "^3.0.1",
+    "prettier": "^2.5.1",
+    "rimraf": "^3.0.2",
+    "standard-version": "^9.3.2"
+  }
+}

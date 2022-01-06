@@ -1,0 +1,9 @@
+.cache
+.firebase
+build/
+coverage/
+dist/
+lib/
+package-lock.json
+tsconfig.json
+yarn.lock
