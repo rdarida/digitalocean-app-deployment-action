@@ -20,6 +20,7 @@ runs:
   steps:
     - run: >-
         curl
+        -s
         -X POST
         -H "Content-Type: application/json"
         -H "Authorization: Bearer ${{ inputs.digitalocean-token }}"
