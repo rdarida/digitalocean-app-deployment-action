@@ -16,6 +16,7 @@
       "url": "https://www.patreon.com/rdarida"
     }
   ],
+  "homepage": "https://rdarida.github.io/digitalocean-app-deployment-action",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rdarida/digitalocean-app-deployment-action.git"
