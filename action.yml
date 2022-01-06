@@ -7,11 +7,11 @@ branding:
   color: 'gray-dark'
 
 inputs:
-  digitalocean-token:
+  digitaloceanToken:
     description: 'Read and write token for DigitalOcean API'
     required: true
 
-  digitalocean-appid:
+  digitaloceanAppId:
     description: 'ID of the DigitalOcean App'
     required: true
 
@@ -23,6 +23,6 @@ runs:
         -s
         -X POST
         -H "Content-Type: application/json"
-        -H "Authorization: Bearer ${{ inputs.digitalocean-token }}"
-        "https://api.digitalocean.com/v2/apps/${{ inputs.digitalocean-appid }}/deployments"
+        -H "Authorization: Bearer ${{ inputs.digitaloceanToken }}"
+        "https://api.digitalocean.com/v2/apps/${{ inputs.digitaloceanAppId }}/deployments"
       shell: bash
