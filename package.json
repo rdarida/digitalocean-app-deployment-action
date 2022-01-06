@@ -4,6 +4,18 @@
   "description": "GitHub Action for Creating an App Deployment via DigitalOcean API",
   "license": "MIT",
   "author": "Róbert Darida",
+  "keywords": [
+    "digitalocean",
+    "app",
+    "deployment",
+    "action"
+  ],
+  "funding": [
+    {
+      "type": "patreon",
+      "url": "https://www.patreon.com/rdarida"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rdarida/digitalocean-app-deployment-action.git"
@@ -11,7 +23,6 @@
   "bugs": {
     "url": "https://github.com/rdarida/digitalocean-app-deployment-action/issues"
   },
-  "main": "index.js",
   "scripts": {
     "prepare": "is-ci || husky install",
     "format": "prettier --write \"./**/*.(ts|tsx|js|jsx|html|json|yml)\""
