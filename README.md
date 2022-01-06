@@ -24,16 +24,6 @@ jobs:
 
 ```
 
-<hr>
-<details>
-  <summary>
-    <strong>Resources</strong>
-  </summary>
-
-  - Add resources here
-</details>
-<hr>
-
 <p align="center">
   See license <a href="LICENSE">here</a>.
 </p>
