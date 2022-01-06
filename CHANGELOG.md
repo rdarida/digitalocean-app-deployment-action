@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.2](https://github.com/rdarida/digitalocean-app-deployment-action/compare/v0.0.1...v0.0.2) (2022-01-06)
+
+
+### Features
+
+* make curl silent ([2427bcf](https://github.com/rdarida/digitalocean-app-deployment-action/commit/2427bcf31b25f9ac2419201034eeea06ceb65767))
+
 ### [0.0.1](https://github.com/rdarida/digitalocean-app-deployment-action/compare/v0.0.0...v0.0.1) (2022-01-06)
 
 
