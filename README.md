@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: DigitalOcean App Deployment Action
-        uses: rdarida/digitalocean-app-deployment-action@v1.0.0
+        uses: rdarida/digitalocean-app-deployment-action@v1.0.2
         with:
           token: ${{ secrets.DIGITALOCEAN_TOKEN }}
           appId: ${{ secrets.DIGITALOCEAN_APPID }}
