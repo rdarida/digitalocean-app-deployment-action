@@ -27,7 +27,8 @@
   "scripts": {
     "prepare": "is-ci || husky install",
     "format": "prettier --write \"./**/*.(ts|tsx|js|jsx|html|json|yml)\"",
-    "release": "standard-version"
+    "release": "standard-version",
+    "postrelease": "git push --follow-tags origin main"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.0.1",
