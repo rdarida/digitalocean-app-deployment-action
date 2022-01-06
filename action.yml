@@ -23,5 +23,5 @@ runs:
         -X POST
         -H "Content-Type: application/json"
         -H "Authorization: Bearer ${{ inputs.digitalocean-token }}"
-        "https://api.digitalocean.com/v2/apps/${{ secrets.digitalocean-appid }}/deployments"
+        "https://api.digitalocean.com/v2/apps/${{ inputs.digitalocean-appid }}/deployments"
       shell: bash
