@@ -1,0 +1,27 @@
+name: 'DigitalOcean App Deployment Action'
+description: 'GitHub Action for Creating an App Deployment via DigitalOcean API.'
+author: 'rdarida'
+
+branding:
+  icon: 'upload'
+  color: 'gray-dark'
+
+inputs:
+  DIGITALOCEAN_TOKEN:
+    description: 'Read and write token for DigitalOcean API'
+    required: true
+
+  DIGITALOCEAN_APPID:
+    description: 'ID of the DigitalOcean App'
+    required: true
+
+runs:
+  using: 'composite'
+  steps:
+    - run: >-
+        curl
+        -X POST
+        -H "Content-Type: application/json"
+        -H "Authorization: Bearer ${{ inputs.DIGITALOCEAN_TOKEN }}"
+        "https://api.digitalocean.com/v2/apps/${{ secrets.DIGITALOCEAN_APPID }}/deployments"
+      shell: bash
